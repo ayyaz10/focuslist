@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "HandyList",
+  "description": "Another productivity tool",
+  "version": "1.0",
+  "perssmisions": ["activeTab"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "focuslist-logo.png"
+  }
+}
