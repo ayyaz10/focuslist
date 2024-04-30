@@ -1,5 +1,7 @@
-console.log("background js go");
-
+// console.log("background js go");
+// chrome.storage.sync.get(null, function (data) {
+//   console.log("Stored Data:", data);
+// });
 // chrome.action.onClicked.addListener(buttonClicked);
 
 // function buttonClicked(tab) {
@@ -44,5 +46,5 @@ console.log("background js go");
 // });
 
 chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-  console.log(tabs);
+  // console.log(tabs);
 });
