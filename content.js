@@ -24,21 +24,32 @@ function injectButton() {
         bottom: 40%;
         right: 2%;
         z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+
+        background-color: #173D14;
+        border-radius: 50px;
+        padding: 8px 15px;
+        -webkit-box-shadow: 0px 0px 6px -2px rgba(0,0,0,1)
+        -moz-box-shadow: 0px 0px 6px -2px rgba(0,0,0,1)
+        box-shadow: 0px 0px 6px -2px rgba(0,0,0,1)
+        
       }
       
       .handylist-button {
-        border: none;
-        border-radius: 50px;
-        background: white;
-        color: black;
-        font-size: 15px;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
       
-        /* display: block; */
+        display: block; 
+        text-decoration: none;
       }
       
       .handylist-logo {
-        border: 1px solid red;
-        padding: 20px;
+        width: 30px;
+        height: 30px;
       }
     </style>
   `;
