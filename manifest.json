@@ -6,6 +6,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
+      "css": ["content.css"],
       "js": ["content.js"]
     }
   ],
@@ -13,6 +14,9 @@
     "service_worker": "background.js"
   },
   "permissions": ["storage", "alarms", "notifications", "tabs"],
+  "icons": {
+    "128": "focuslist-logo.png"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": "focuslist-logo.png",
@@ -21,5 +25,12 @@
   "options_page": "options.html",
   "chrome_url_overrides": {
     "newtab": "myPage.html"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["focuslist-logo.png"],
+      "matches": ["*://*/*"],
+      "use_dynamic_url": false
+    }
+  ]
 }
