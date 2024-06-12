@@ -99,7 +99,7 @@ async function sendToGS(emails) {
   }
 }
 setTimeout(function () {
-  console.log("window is going to bec closed");
+  console.log("Window is going to be closed");
   window.close();
 }, 8000);
 // chrome.runtime.onMessage.addListener(function (message) {

@@ -11,6 +11,15 @@
     {
       "matches": ["https://www.11880.com/branchenbuch/frankfurt-am-main/*"],
       "js": ["contentLink.js"]
+    },
+    {
+      "matches": ["https://www.11880.com/suche/restaurant/wiesbaden/*"],
+      "js": ["contentLink.js"]
+    },
+    {
+      "matches": ["https://app.clockify.me/tracker"],
+      "js": ["timer.js"],
+      "run_at": "document_idle"
     }
   ],
   "background": {
